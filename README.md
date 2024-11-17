@@ -1,4 +1,5 @@
 # TCS-Codevita-Season-12
+
 TCS Codevita Season 12 - DSA Question Solutions and Test Cases
 
 
@@ -19,13 +20,24 @@ Structure
 The repository is organized as follows:
 
 ├── Problem-1
+
 │   ├── problem1.cpp
+
 │   └── test_cases.txt
+
+
 ├── Problem-2
+
 │   ├── problem2.cpp
+
 │   └── test_cases.txt
+
+
 ├── Problem-3
+
 │   ├── problem3.cpp
+
 │   └── test_cases.txt
+
 ...
 
