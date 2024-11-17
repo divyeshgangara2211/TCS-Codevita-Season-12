@@ -1,0 +1,12 @@
+LightHouse
+
+Problem Description
+
+You are a chief guard in an imaginary archipelago, a group of islands surrounded by sea. Each island in the archipelago has a lighthouse to detect the movement of ships.
+
+Each lighthouse has a guard who can communicate with guards in other lighthouses using a red beam of light. When a ship enters the archipelago, this information must be transmitted to the chief's lighthouse guards using the red beam.
+
+A typical lighthouse and the beam it emits look like this.
+
+When a guard spots a ship entering or sees a red beam from a lighthouse, he will activate the red beam from his lighthouse, initially directing it horizontally. He can then rotate the beam either clockwise or counterclockwise to pass it to the angularly nearest lighthouse in any direction. Once a lighthouse receives the red beam, the originating lighthouse will stop emitting its beam and can no longer receive beams from other lighthouses. This process continues until the chief guard at the final lighthouse receives the red beam.
+
