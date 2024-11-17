@@ -1,0 +1,48 @@
+DanceRev Problem Description
+
+Dance Revolution is the pioneering series of the rhythm and dance genre in video games The core games involve placing your feet on certain tile according to the instruction on screen. 
+Here you will have four tiles up, down, right, and left. You can move your leg one at time. 
+
+Initially you can place your feet at any tile. Instructions will contain the list of tiles, where you must place one of your feet, one instruction after another. 
+Given the instruction to place your feet, find the minimum number of times you must move your legs to different titles following the instruction. 
+You can start with placing your legs at any position. 
+
+Constraints :
+1<= N <= 80 
+
+Input :
+First line consists of single integer N representing total number of instructions Next N lines consist of the instructions. 
+
+Output : 
+Single integer representing minimum number of times you must move your legs Time Limit (secs)
+
+Examples :
+
+Example 1 :
+
+Input :
+6 
+down 
+right 
+down 
+up 
+right 
+down
+
+Output :  2 
+Explanation Assume you initially you started with your legs on tiles down and right. com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@6928f576:image1.png Minimum 2 times you must move your leg to follow the instruction. 
+
+Example 2 :
+Input :
+8 
+up 
+right 
+down 
+up 
+up 
+down 
+right 
+left 
+
+Output : 3
+Explanation Assume you are starting with legs at tiles up and right. com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@6928f576:image2.png From the table you see, you had to move your legs three times, that is the minimum times will be required to follow the instructions
