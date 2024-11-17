@@ -1,0 +1,25 @@
+Problem Description
+Reenu is an electrical engineer who frequently designs new circuits. She constructs circuits using two types of resistors: horizontal and vertical, along with a junction. In each circuit, there are two positions: an opening and a closing. The circuit is connected to the power supply at the opening position, and the current flows through the resistors and junctions until it reaches the closing position.
+
+In the matrix representation of the circuit, power can only flow vertically (up or down) if a vertical resistor is present, and it can only flow horizontally (left or right) if a horizontal resistor is present. The junction connects all four sides. The vertical and horizontal resistors have 1 units of resistance, while the junction considered to be having low resistance, ignorable.
+
+Vertical resistor is represented by "|" (pipe), horizontal represented by "-"(hyphen) .a "." (period) symbol represents terminals and "+" (plus) representing junction.
+
+
+The resistance for series connection is RT = R1 + R2 and for parallel connection is 1/RT = 1/R1 + 1/R2.To know about resistance in series and parallel look here.
+
+Given the circuit, reduce and determine the equal resistance of the circuit between opening position and closing position.
+
+To know more about reduction of resistor in series and parallel look here
+
+Constraints
+3 <= N <= 10
+
+Input
+First line consists of N, denoting the number of rows, columns in the matrix.
+
+The following N lines represent the circuit as a matrix.
+
+Output
+Print the total resistance of the circuit.
+
